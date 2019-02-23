@@ -1,0 +1,26 @@
+The first program: 
+x = 0 
+3.times do
+  x +=1
+end
+puts x
+
+WILL print a value of 3 to the screen. 
+x was declared as a local variable, meaning that it can be accessed by the 
+inner scope as well as the outer scope.
+
+The second program:
+y = 0 
+5.times do
+  y += 1
+  x = y
+end
+puts y
+puts x
+
+WILL print a value of 5 for y, 
+because is was initialized in the outer scope. 
+It WILL NOT print a value for x because this variable 
+was intialized in the inner scope, and as such, 
+it cannot be accessed in the outer scope. 
+
