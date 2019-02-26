@@ -8,6 +8,7 @@ puts "Enter a number between 0 and 100: "
 
 #store user input as name variable
 number = gets.chomp
+#convert varible from string to int
 number = number.to_i
 
 #flow control for name based on value
