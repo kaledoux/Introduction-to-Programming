@@ -38,5 +38,3 @@ puts food.to_a
 #return all the keys or all of the values with .keys or .values
 puts food.keys
 puts food.values
-
-
