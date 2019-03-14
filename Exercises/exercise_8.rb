@@ -3,7 +3,7 @@
  stock = {apples: 23,
           :bananas => 5}
 
-#creted through ::new method
+#created through ::new method
 sold = Hash.new
 sold[:apples] = 7
 sold[:bananas] = 25
